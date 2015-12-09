@@ -1,0 +1,22 @@
+{
+  "name": "node-webapi",
+  "description": "RESTful web API implement",
+  "version": "0.1.0",
+  "author": "My name <a.avlessi@gmail.com>",
+  "contributors": [],
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test:default": "node_modules/mocha/bin/_mocha --report lcovonly --reporter spec test --check-leaks test"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "express-domain-middleware": "^0.1.0",
+    "express-xml-bodyparser": "^0.2.2",
+    "mongoose": "^4.2.7",
+    "mongoose-relationship": "^0.1.4",
+    "kerberos": "~0.0.17"
+  }
+}

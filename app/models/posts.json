@@ -1,0 +1,22 @@
+{
+	"post1" : {
+		"postid": 1,
+		"author":"Sasha",
+		"title" : "Hello",
+		"content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+	},
+
+	"post2" : {
+		"postid": 2,
+		"author":"Nicolas",
+		"title" : "Hi",
+		"content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+	},
+
+	"post3" : {
+		"postid": 3,
+		"author":"James",
+		"title" : "Buy",
+		"content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+	}
+}
