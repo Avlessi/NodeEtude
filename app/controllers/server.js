@@ -3,14 +3,14 @@
 var http = require("http");
 var express = require('express');
 var app = express();
-
-//var bodyParser = require("bodyParser");
+var bodyParser = require("body-parser");
+app.use(bodyParser());
 
 //app.use(bodyParser.json());
 
 var webApiRoutes = require('./webApiRoutes.js');
 
-app.use('/posts', webApiRoutes);
+app.use('/blog', webApiRoutes);
 
 var server = http.Server(app);
 

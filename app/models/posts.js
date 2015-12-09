@@ -1,3 +1,5 @@
+"use strict";
+
 //Lets load the mongoose module in program
 var mongoose = require('mongoose');
 
